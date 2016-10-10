@@ -1,0 +1,16 @@
+{
+  "name": "plebhorn",
+  "version": "1.0.0",
+  "description": "A very low class airhorn.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Will Nelson <nelson.will@live.com>",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^9.3.0",
+    "dotenv": "^2.0.0",
+    "knuth-shuffle": "^1.0.1"
+  }
+}
