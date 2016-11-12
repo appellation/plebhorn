@@ -40,7 +40,7 @@ client.on('message', msg => {
                 })).then(shuffle),
                 msg.member.voiceChannel.join()
             ]).then(resolutions => {
-                return resolutions[1].playFile('audio/' + resolutions[0][0]);
+                return resolutions[1].playFile('./audio/' + resolutions[0][0]);
             }).then(dispatcher => {
                 dispatcher.setVolume(0.5);
                 dispatcher.once('end', () => {
