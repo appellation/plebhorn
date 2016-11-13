@@ -29,7 +29,7 @@ client.on('message', msg => {
 
         q.push((cb) => {
             Promise.all([
-                new Promise((resolve, reject) => fs.readdir('audio', (err, success) => {
+                new Promise((resolve, reject) => fs.readdir(__dirname + '/audio', (err, success) => {
                     if (err) {
                         reject(err);
                     } else if (success.length == 0) {
