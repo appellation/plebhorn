@@ -2,7 +2,10 @@
  * Created by Will on 10/9/2016.
  */
 const Discord = require('discord.js');
-const dotenv = require('dotenv').config({silent: true});
+const dotenv = require('dotenv').config({
+    silent: true,
+    path: __dirname + '/.env'
+});
 const shuffle = require('knuth-shuffle').knuthShuffle;
 const fs = require('fs');
 const queue = require('queue');
