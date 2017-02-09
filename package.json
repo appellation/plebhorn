@@ -11,7 +11,6 @@
   "dependencies": {
     "discord.js": "^9.3.0",
     "dotenv": "^2.0.0",
-    "knuth-shuffle": "^1.0.1",
     "queue": "^4.0.0"
   }
 }
